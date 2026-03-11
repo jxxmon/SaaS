@@ -22,3 +22,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def multiply_numbers(a, b):
+    """두 숫자를 곱하는 함수 (test 브랜치에서 추가)"""
+    return a * b
+
+if __name__ == "__main__":
+    main()
+    print(f"3 * 4 = {multiply_numbers(3, 4)}")
